@@ -1,0 +1,10 @@
+{
+  "catalog_container": "",
+  "catalog_next": "",
+  "catalog_ready_selector": "[data-region=\"myoverview\"][data-init=\"true\"]",
+  "catalog_grouping_label": "Menú desplegable de agrupación",
+  "catalog_all_courses_label": "Mostrar todos los cursos excepto los cursos archivados",
+  "recordings_section": "",
+  "ready_selector": "",
+  "note": "Etiquetas, roles, aria-current y data-init del catálogo observados el 17/10/2026. Se verificaron enlaces de sección y data-setup-lazy en grabaciones del módulo 559. Los selectores vacíos usan extracción genérica de enlaces y fuentes multimedia."
+}

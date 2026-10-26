@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+data/*
+!data/.gitkeep
+*.sqlite*
+playwright/.auth/
+*.egg-info/
+dist/
+node_modules/
+web/.vitepress/cache/
+web/.vitepress/dist/
+.*-export.lock
+
+# Local logs, coverage and editor state
+*.log
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.vscode/
+.idea/
+
+# Local credentials and authentication state
+.aws/
+.ssh/
+*.pem
+*.key

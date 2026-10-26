@@ -1,0 +1,21 @@
+services:
+  n8n:
+    image: ${N8N_IMAGE:-docker.n8n.io/n8nio/n8n:2.0.0}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      GENERIC_TIMEZONE: America/La_Paz
+      TZ: America/La_Paz
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?Configure N8N_ENCRYPTION_KEY}
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+      N8N_BLOCK_ENV_ACCESS_IN_NODE: "false"
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_SECURE_COOKIE: "false"
+      BACKEND_URL: ${BACKEND_URL:-http://host.docker.internal:8000}
+      N8N_BACKEND_TOKEN: ${N8N_BACKEND_TOKEN:?Configure N8N_BACKEND_TOKEN}
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "root_page_id": "2272101e-f957-8011-85be-e492c08282e8",
+  "modules": [
+    {"module_id": 416, "export_number": 7, "cohort": "V1E4", "page_id": "3e92101e-f957-80d8-b4ec-cdfb9c1bf73b"},
+    {"module_id": 426, "export_number": 8, "cohort": "V1E4", "page_id": "32c2101e-f957-80a9-8e31-d1a40fbc0bbf"},
+    {"module_id": 449, "export_number": 9, "cohort": "V1E4", "page_id": "3eb2101e-f957-8063-a031-f718fc38804f"},
+    {"module_id": 497, "export_number": 10, "cohort": "V1E4", "page_id": "3eb2101e-f957-80af-a7a1-e8c90bfbeb65"},
+    {"module_id": 510, "export_number": 11, "cohort": "V1E4", "page_id": "3eb2101e-f957-80be-a19d-dc2f2df9346e"},
+    {"module_id": 529, "export_number": 12, "cohort": "V1E4", "page_id": "3eb2101e-f957-802f-ae0d-ede5b456b41a"},
+    {"module_id": 545, "export_number": 13, "cohort": "V1E4", "page_id": "3ec2101e-f957-808c-a8dc-f8658d10bf52"}
+  ],
+  "corrections": [
+    {
+      "block_id": "c69ef816-c0fa-44e5-b7f7-8473e57f0e95",
+      "expected_sha256": "f23d8b649ae6ebfe790fd0b01144b093509770da2cb1344d0695b904ab840fbd",
+      "find": "quadrant-2 Aspirantes / Retadores (Challengers)",
+      "replace": "quadrant-2 \"Aspirantes / Retadores (Challengers)\""
+    },
+    {
+      "block_id": "757cdd7e-67df-473d-af45-1d9d6b34fd87",
+      "expected_sha256": "1ab9e34c757a7c23a18dead808d45be96c63bd7ff279e9f7b273e7161294c883",
+      "find": "|Distribucion w_ij ~ N(mu_w, sigma_w^2)|",
+      "replace": "|\"Distribucion w_ij ~ N(mu_w, sigma_w^2)\"|"
+    },
+    {
+      "block_id": "ea369b9c-810f-4892-ad7b-4eb6f1c25dce",
+      "expected_sha256": "f897663fea87f29f0660ceabf9bc11c1b8c0950d237ac5d8fb9574e1382e5250",
+      "find": "|Hay Particion (P)|",
+      "replace": "|\"Hay Particion (P)\"|"
+    },
+    {
+      "block_id": "ea369b9c-810f-4892-ad7b-4eb6f1c25dce",
+      "expected_sha256": "f897663fea87f29f0660ceabf9bc11c1b8c0950d237ac5d8fb9574e1382e5250",
+      "find": "|No Hay Particion (Else - E)|",
+      "replace": "|\"No Hay Particion (Else - E)\"|"
+    }
+  ]
+}
