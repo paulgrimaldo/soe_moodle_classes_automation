@@ -16,7 +16,7 @@ content_hash: "8a3b3ef2d0c8d159ed7659b38a394feb1b8407ad2e27dddb4eec9456ffe32805"
 link: "/dcc/modulo-566/semana-01.html"
 download: "/notes/dcc/modulo-566/semana-01.md"
 prev: false
-next: false
+next: {"text": "Semana 2", "link": "/dcc/modulo-566/semana-02.html"}
 ---
 
 # Clase 1: Congruencia teórica y metodológica del proyecto de investigación doctoral

@@ -21,4 +21,4 @@ Apuntes organizados por módulo y semana.
 - [11 · TALLER DE PRODUCCIÓN CIENTÍFICA 2](/dcc/modulo-431/) — 5 sesiones
 - [12 · SEGURIDAD INFORMÁTICA, ETHICAL HACKING Y BLOCKCHAIN](/dcc/modulo-505/) — 4 sesiones
 - [13 · INTELIGENCIA ARTIFICIAL Y RECONOCIMIENTO DE PATRONES CON MACHINE LEARNING](/dcc/modulo-532/) — 7 sesiones
-- [14 · SEMINARIO DE INTEGRACIÓN DE LA FORMACIÓN DOCTORAL](/dcc/modulo-566/) — 1 sesiones
+- [14 · SEMINARIO DE INTEGRACIÓN DE LA FORMACIÓN DOCTORAL](/dcc/modulo-566/) — 3 sesiones

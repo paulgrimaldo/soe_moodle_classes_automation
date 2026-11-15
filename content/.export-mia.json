@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "files": {
-    "mia/catalog.json": "c6a45dd3e8c1670c544aa7948f29b646a1e32d9824ce7f45db614528cd812c41",
-    "mia/index.md": "41fb1be4d84e2d0a6239577a3465858e8fd455438f0feae17bcd47e859338cb2",
+    "mia/catalog.json": "7cae8daa08411c45828969c40d75dcb58973e4c52c6418fcb23f28252d00d1ee",
+    "mia/index.md": "fb7ee62a13eed572731cb7f7241fe287c8ccd5f630bbc23dfebdccc739c471cb",
     "mia/modulo-341/index.md": "2801f254376dd668f8eeb06ebf556b70aac4e288034862bb920a085456382ee6",
     "mia/modulo-341/semana-01-clase-01.md": "00912ec6b87b7ebc39e25bdf8f59dddeae0017c694b0e3bd900e34cef2349616",
     "mia/modulo-341/semana-01-clase-02.md": "864dc495f302f0fcbadb5ae23dc8ef33fba6fb6a94693fe92bf040c7e9626fd3",
@@ -120,12 +120,16 @@
     "mia/modulo-545/semana-03-clase-02.md": "2cf7a9cf7f3fab7bcec1a8a2ab559c56152531c582dc586d50babcf9a7e7c472",
     "mia/modulo-545/semana-04-clase-01.md": "b542f52b2b62f43efe0b1ba323bca9572e2a8f11511839f38ce9f25595dd4be5",
     "mia/modulo-545/semana-04-clase-02.md": "e6e48110396b25f27fd9c3550c54368552bc0a51f92aa75d01323ec913f65f83",
-    "mia/modulo-559/index.md": "c1d40c8efaf9f318e2d508e1ebad8c9ec7932f44b34abf96815e309ea2852a44",
+    "mia/modulo-559/index.md": "b38c20f375e492803a028699e55fcb6d88e31b5002ab21a0cc4c3b3018b9b49a",
     "mia/modulo-559/semana-01-clase-01.md": "28df2a59d7c3249cf857de985d770a47ac247c34f182022d5c26a665ef297654",
     "mia/modulo-559/semana-01-clase-02.md": "0a1d8efd04b13a56416f5fda27abb1c2ed5022e1c0bec15df54d16fb35b4dac2",
     "mia/modulo-559/semana-02-clase-01.md": "ae08d15539e9d482b381d9353f6f9fe8de010b1e5a356e7d38fa135e4f39330d",
     "mia/modulo-559/semana-02-clase-02.md": "efda2fcb003d6c2327937b4261f2ec8bf6db923a5ae96e1f13168997f86b3e1a",
-    "mia/modulo-559/semana-03-clase-01.md": "65c83341af1a19aa1960b53c87d6b33e63c6a241a5d2d2f35459699457f0d895",
+    "mia/modulo-559/semana-03-clase-01.md": "1aad5a823fba5f84f6200f44a797d7789a0b2bba3d076ae241df7cb9e55de3bc",
+    "mia/modulo-559/semana-03-clase-02.md": "b145306daeee363a3fde43ef124dabef0a4d425726f5f39d15c45d5bdd7a134a",
+    "mia/modulo-559/semana-04-clase-01.md": "a36af3c2357857a19e5c5813003dea2864b569a9ffbe08795a51236382ef8d6f",
+    "mia/modulo-574/index.md": "9639f2425343e1f9939478c135c317d8d8c148072f13b181ca1151352030ce65",
+    "mia/modulo-574/semana-01-clase-01.md": "188820e6b167d458d2824d1ae4d1831ba84f9575fc19659ed530b0f87545bca1",
     "public/notes/mia/modulo-341/semana-01-clase-01.md": "ff1a71317d2abef46121026a7dc1676519915734c4efa9f55a9440041a175dc6",
     "public/notes/mia/modulo-341/semana-01-clase-02.md": "ccaab2523a550af5a4b433ad2891d09fa00c959b2ded90c84bd9cca7c66ef2b6",
     "public/notes/mia/modulo-341/semana-02-clase-01.md": "cf9e0689a6745c175aa3c705c1657a164a4f0dc9f9e2edd62c4c2dd5d7e714ff",
@@ -234,6 +238,9 @@
     "public/notes/mia/modulo-559/semana-01-clase-02.md": "2d62bfe5109f2ba39ec7fa4c6aecabf3067de8467f8b124dbdf065f109e07540",
     "public/notes/mia/modulo-559/semana-02-clase-01.md": "a4534852aef6789f1a958df0551af4ec140271c8aa6a6d8ca543a45dad9aff13",
     "public/notes/mia/modulo-559/semana-02-clase-02.md": "b77903cdfd80729d0f515b8f75bd5b3a394d30acd8619aebbd3e2d3f385a7a53",
-    "public/notes/mia/modulo-559/semana-03-clase-01.md": "83eed835275a22c51c0778fcddf717430fbaa52c0e5dff50c8b237f5b80c9598"
+    "public/notes/mia/modulo-559/semana-03-clase-01.md": "83eed835275a22c51c0778fcddf717430fbaa52c0e5dff50c8b237f5b80c9598",
+    "public/notes/mia/modulo-559/semana-03-clase-02.md": "3302393a6dba0791a8f5073f5ff2ef10c3d5fe8ccad53aa33a655e98afb8a962",
+    "public/notes/mia/modulo-559/semana-04-clase-01.md": "4eb678b6a84ab8f8ee7390e34ce048c09c47eea50591b21a018d015b1a5779ce",
+    "public/notes/mia/modulo-574/semana-01-clase-01.md": "4a1fa70a350c4e520b6e3fd8c8ba8040077cb433c8bd8c61476d57fb05a6ac15"
   }
 }

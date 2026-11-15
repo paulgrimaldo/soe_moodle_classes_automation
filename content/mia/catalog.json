@@ -1635,6 +1635,54 @@
           "content_hash": "83eed835275a22c51c0778fcddf717430fbaa52c0e5dff50c8b237f5b80c9598",
           "link": "/mia/modulo-559/semana-03-clase-01.html",
           "download": "/notes/mia/modulo-559/semana-03-clase-01.md"
+        },
+        {
+          "session_id": "476673c9-db92-4fd8-85b3-c01fe5a2ee5e",
+          "title": "Actualización y recursos en Kubernetes: trazabilidad y gobernanza de modelos con MLflow",
+          "label": "Semana 3 · Clase 2",
+          "week": 3,
+          "class_in_week": 2,
+          "number": 6,
+          "date": "2026-10-26",
+          "revision": 1,
+          "content_hash": "3302393a6dba0791a8f5073f5ff2ef10c3d5fe8ccad53aa33a655e98afb8a962",
+          "link": "/mia/modulo-559/semana-03-clase-02.html",
+          "download": "/notes/mia/modulo-559/semana-03-clase-02.md"
+        },
+        {
+          "session_id": "cf0a0cf3-ed86-46c0-a240-5a3fd8703463",
+          "title": "Automatización CI/CD/CT, monitoreo y gestión del drift en MLOps",
+          "label": "Semana 4 · Clase 1",
+          "week": 4,
+          "class_in_week": 1,
+          "number": 7,
+          "date": "2026-10-30",
+          "revision": 1,
+          "content_hash": "4eb678b6a84ab8f8ee7390e34ce048c09c47eea50591b21a018d015b1a5779ce",
+          "link": "/mia/modulo-559/semana-04-clase-01.html",
+          "download": "/notes/mia/modulo-559/semana-04-clase-01.md"
+        }
+      ]
+    },
+    {
+      "id": 574,
+      "number": 15,
+      "title": "TALLER DE DESARROLLO DE HABILIDADES GERENCIALES",
+      "cohort": "V1E4",
+      "link": "/mia/modulo-574/",
+      "sessions": [
+        {
+          "session_id": "0f4d56c4-848d-42e6-b94b-e9f80e254cd6",
+          "title": "Autoliderazgo, autoconocimiento y planificación personal con criterio de evidencia",
+          "label": "Semana 1 · Clase 1",
+          "week": 1,
+          "class_in_week": 1,
+          "number": 1,
+          "date": "2026-11-10",
+          "revision": 1,
+          "content_hash": "4a1fa70a350c4e520b6e3fd8c8ba8040077cb433c8bd8c61476d57fb05a6ac15",
+          "link": "/mia/modulo-574/semana-01-clase-01.html",
+          "download": "/notes/mia/modulo-574/semana-01-clase-01.md"
         }
       ]
     }

@@ -16,7 +16,7 @@ content_hash: "83eed835275a22c51c0778fcddf717430fbaa52c0e5dff50c8b237f5b80c9598"
 link: "/mia/modulo-559/semana-03-clase-01.html"
 download: "/notes/mia/modulo-559/semana-03-clase-01.md"
 prev: {"text": "Semana 2 · Clase 2", "link": "/mia/modulo-559/semana-02-clase-02.html"}
-next: false
+next: {"text": "Semana 3 · Clase 2", "link": "/mia/modulo-559/semana-03-clase-02.html"}
 ---
 
 # Clase 5: Orquestación con Kubernetes y cómputo distribuido para MLOps
