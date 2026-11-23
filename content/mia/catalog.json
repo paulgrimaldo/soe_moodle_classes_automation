@@ -1683,6 +1683,32 @@
           "content_hash": "4a1fa70a350c4e520b6e3fd8c8ba8040077cb433c8bd8c61476d57fb05a6ac15",
           "link": "/mia/modulo-574/semana-01-clase-01.html",
           "download": "/notes/mia/modulo-574/semana-01-clase-01.md"
+        },
+        {
+          "session_id": "12f92409-b670-4530-9eba-e125952bb7f6",
+          "title": "Gestión de equipos: selección por competencias, inteligencia emocional y comunicación intercultural",
+          "label": "Semana 1 · Clase 2",
+          "week": 1,
+          "class_in_week": 2,
+          "number": 2,
+          "date": "2026-11-13",
+          "revision": 1,
+          "content_hash": "92c77d481548526498fd4efee731ca0c953ecfdeb52b7b45d87bb5481ad37110",
+          "link": "/mia/modulo-574/semana-01-clase-02.html",
+          "download": "/notes/mia/modulo-574/semana-01-clase-02.md"
+        },
+        {
+          "session_id": "d9d826e8-4d55-4549-ba15-23817f3c75ec",
+          "title": "Equipos de alto rendimiento: seguridad psicológica, puntos ciegos y conversaciones difíciles",
+          "label": "Semana 2 · Clase 1",
+          "week": 2,
+          "class_in_week": 1,
+          "number": 3,
+          "date": "2026-11-17",
+          "revision": 1,
+          "content_hash": "6af89b385c6711ff323dd6ec84419fe315d9d6daec2153ffa5b5f4a565c63c08",
+          "link": "/mia/modulo-574/semana-02-clase-01.html",
+          "download": "/notes/mia/modulo-574/semana-02-clase-01.md"
         }
       ]
     }

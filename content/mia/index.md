@@ -22,4 +22,4 @@ Apuntes organizados por módulo y semana.
 - [12 · PRACTICING DATA SCIENCE](/mia/modulo-529/) — 8 sesiones
 - [13 · GENERATIVE MODELS AND COMPUTER VISION](/mia/modulo-545/) — 8 sesiones
 - [14 · ML-OPS Y PUESTA EN PRODUCCIÓN](/mia/modulo-559/) — 7 sesiones
-- [15 · TALLER DE DESARROLLO DE HABILIDADES GERENCIALES](/mia/modulo-574/) — 1 sesiones
+- [15 · TALLER DE DESARROLLO DE HABILIDADES GERENCIALES](/mia/modulo-574/) — 3 sesiones

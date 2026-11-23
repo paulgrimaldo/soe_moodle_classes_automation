@@ -16,7 +16,7 @@ content_hash: "4a1fa70a350c4e520b6e3fd8c8ba8040077cb433c8bd8c61476d57fb05a6ac15"
 link: "/mia/modulo-574/semana-01-clase-01.html"
 download: "/notes/mia/modulo-574/semana-01-clase-01.md"
 prev: false
-next: false
+next: {"text": "Semana 1 · Clase 2", "link": "/mia/modulo-574/semana-01-clase-02.html"}
 ---
 
 # Clase 1: Autoliderazgo, autoconocimiento y planificación personal con criterio de evidencia

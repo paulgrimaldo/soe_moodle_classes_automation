@@ -16,7 +16,7 @@ content_hash: "9bedbceb5bffa3ec7bec027eab5ec461a66d91053cda51adce5904464d316b75"
 link: "/dcc/modulo-566/semana-03.html"
 download: "/notes/dcc/modulo-566/semana-03.md"
 prev: {"text": "Semana 2", "link": "/dcc/modulo-566/semana-02.html"}
-next: false
+next: {"text": "Semana 4", "link": "/dcc/modulo-566/semana-04.html"}
 ---
 
 # Clase 3: Congruencia del proyecto doctoral y fundamentación de la validación científica
