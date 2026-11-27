@@ -4,7 +4,7 @@ MVP para macOS: Moodle → transcripciones → Codex CLI con la skill instalada 
 
 ## Inicio
 
-Requiere Python 3.12+, uv, Node.js, yt-dlp, Codex CLI autenticado, la skill `academic-transcription-to-notion` y Chrome con sesión YouTube. Docker Desktop es necesario solamente para n8n.
+Requiere Python 3.12+, uv, Node.js, Codex CLI autenticado, la skill `academic-transcription-to-notion` y Chrome con sesión YouTube. `uv sync` instala yt-dlp para el worker. Docker Desktop es necesario solamente para n8n.
 
 ```bash
 python3 scripts/configure_local.py

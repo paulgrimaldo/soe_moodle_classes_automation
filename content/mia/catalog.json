@@ -1709,6 +1709,32 @@
           "content_hash": "6af89b385c6711ff323dd6ec84419fe315d9d6daec2153ffa5b5f4a565c63c08",
           "link": "/mia/modulo-574/semana-02-clase-01.html",
           "download": "/notes/mia/modulo-574/semana-02-clase-01.md"
+        },
+        {
+          "session_id": "910462a6-9eda-4bf2-a4a6-20f4dd426880",
+          "title": "Delegación, empoderamiento y confianza en la gestión de equipos",
+          "label": "Semana 2 · Clase 2",
+          "week": 2,
+          "class_in_week": 2,
+          "number": 4,
+          "date": "2026-11-20",
+          "revision": 1,
+          "content_hash": "6ee94b90bea8b5b4b405f211d34848afb14c29729f6fb54a7e396f8794bd10d4",
+          "link": "/mia/modulo-574/semana-02-clase-02.html",
+          "download": "/notes/mia/modulo-574/semana-02-clase-02.md"
+        },
+        {
+          "session_id": "5aee28b5-35f5-428a-8ec1-a277085a3efe",
+          "title": "Coaching y mentoring: preguntas, aprendizaje y liderazgo relacional",
+          "label": "Semana 3 · Clase 1",
+          "week": 3,
+          "class_in_week": 1,
+          "number": 5,
+          "date": "2026-11-24",
+          "revision": 1,
+          "content_hash": "38d80692e70b3ef7e432df3f4757e90a6ad80ad366c0e19db31701181861980a",
+          "link": "/mia/modulo-574/semana-03-clase-01.html",
+          "download": "/notes/mia/modulo-574/semana-03-clase-01.md"
         }
       ]
     }

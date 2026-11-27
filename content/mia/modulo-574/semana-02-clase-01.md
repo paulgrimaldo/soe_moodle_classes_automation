@@ -16,7 +16,7 @@ content_hash: "6af89b385c6711ff323dd6ec84419fe315d9d6daec2153ffa5b5f4a565c63c08"
 link: "/mia/modulo-574/semana-02-clase-01.html"
 download: "/notes/mia/modulo-574/semana-02-clase-01.md"
 prev: {"text": "Semana 1 · Clase 2", "link": "/mia/modulo-574/semana-01-clase-02.html"}
-next: false
+next: {"text": "Semana 2 · Clase 2", "link": "/mia/modulo-574/semana-02-clase-02.html"}
 ---
 
 # Clase 3: Equipos de alto rendimiento: seguridad psicológica, puntos ciegos y conversaciones difíciles

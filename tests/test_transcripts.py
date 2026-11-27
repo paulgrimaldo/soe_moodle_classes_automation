@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 import pytest
@@ -22,6 +23,8 @@ SCRIPT_FAILURE = "[FALLIDO] No se pudo obtener subtitulo para: https://youtu.be/
     (COOKIE_INFO + "ERROR: HTTP Error 429\n" + SCRIPT_FAILURE, "YOUTUBE_TRANSIENT_ERROR", True),
     (COOKIE_INFO + "ERROR: Private video\n" + SCRIPT_FAILURE, "YOUTUBE_PERMANENT_ERROR", False),
     (COOKIE_INFO + "ERROR: Unexpected extractor failure", "TRANSCRIPT_DOWNLOAD_FAILED", False),
+    (COOKIE_INFO + "ERROR: Unexpected extractor failure\n" + SCRIPT_FAILURE,
+     "TRANSCRIPT_DOWNLOAD_FAILED", False),
     ("ERROR: failed to load cookies", "YOUTUBE_AUTH_REQUIRED", False),
     ("ERROR: could not find chrome cookies database", "YOUTUBE_AUTH_REQUIRED", False),
     ("ERROR: Could not copy Chrome cookie database", "YOUTUBE_AUTH_REQUIRED", False),
@@ -37,6 +40,8 @@ def test_classification(message, code, retryable):
     ("ERROR: HTTP Error 429", "YOUTUBE_TRANSIENT_ERROR", True),
     ("ERROR: Private video", "YOUTUBE_PERMANENT_ERROR", False),
     ("ERROR: Sign in to confirm you're not a bot", "YOUTUBE_AUTH_REQUIRED", False),
+    ("WARNING: n challenge solving failed\nTypeError: a.addOnDisposeCallback is not a function\n"
+     "ERROR: The page needs to be reloaded.", "YOUTUBE_EXTRACTOR_ERROR", True),
 ])
 async def test_download_classifies_diagnostic_with_successful_cookie_extraction(
         tmp_path, diagnostic, code, retryable):
@@ -44,6 +49,7 @@ async def test_download_classifies_diagnostic_with_successful_cookie_extraction(
     settings.prepare()
 
     async def runner(args, **kwargs):
+        assert kwargs["env"]["ACADEMIC_YTDLP_PYTHON"] == sys.executable
         Path(kwargs["env"]["ACADEMIC_YTDLP_LOG"]).write_text(COOKIE_INFO + diagnostic)
         return ProcessResult(123, "", SCRIPT_FAILURE)
 

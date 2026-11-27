@@ -13,6 +13,11 @@ PREFIX="clase"
 KEEP_VTT=false
 declare -a URLS=()
 
+YTDLP=(yt-dlp)
+if [[ -n "${ACADEMIC_YTDLP_PYTHON:-}" ]]; then
+    YTDLP=("$ACADEMIC_YTDLP_PYTHON" -m yt_dlp)
+fi
+
 usage() {
     cat << 'EOF'
 Uso:
@@ -111,7 +116,7 @@ except Exception as e:
 
     # Descarga de subtitulos mediante yt-dlp
     set +e
-    yt-dlp \
+    "${YTDLP[@]}" \
         --js-runtimes node \
         --remote-components ejs:github \
         --cookies-from-browser chrome \
@@ -192,7 +197,7 @@ except Exception as e:
 fi
 
 # Verificar dependencias
-if ! command -v yt-dlp >/dev/null 2>&1; then
+if [[ -z "${ACADEMIC_YTDLP_PYTHON:-}" ]] && ! command -v yt-dlp >/dev/null 2>&1; then
     echo "Error: yt-dlp no se encuentra en el PATH del sistema." >&2
     exit 1
 fi

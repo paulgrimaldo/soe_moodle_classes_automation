@@ -16,7 +16,7 @@ content_hash: "d75ff79ba59d71c9fda34baba3b257140683a1eff77215b20fff4beb48a80b82"
 link: "/dcc/modulo-566/semana-04.html"
 download: "/notes/dcc/modulo-566/semana-04.md"
 prev: {"text": "Semana 3", "link": "/dcc/modulo-566/semana-03.html"}
-next: false
+next: {"text": "Semana 5", "link": "/dcc/modulo-566/semana-05.html"}
 ---
 
 # Clase 4: Construcción y sistematización crítica de los fundamentos teóricos referenciales

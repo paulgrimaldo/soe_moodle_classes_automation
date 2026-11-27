@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "files": {
-    "dcc/catalog.json": "f3e4b483a83f6ac43fcceea473cf25f9c8d3ed2b35552f5ad24ccf7435b286fb",
-    "dcc/index.md": "049665cc35faad3905981d35dbea7ea7fe7b00e7fcb0f0e93cbf9253084b8345",
+    "dcc/catalog.json": "c4732405ad4049cc16d9d607001993ba189c23b525cd912baabe67c6694e472d",
+    "dcc/index.md": "123103e64f81a194e50e81b32da66d28062b6ae5fe0a444dd0810cb9a82b9435",
     "dcc/modulo-195/index.md": "87c965af107c10402c333a333012e120b076c3a85b6721af5eea3537c191aba5",
     "dcc/modulo-195/semana-01.md": "6bcaea16694467f2e847df9e8d5660cc50cf2c5d5dd7861a10b6ec659ddd617e",
     "dcc/modulo-195/semana-02.md": "c72bf8d26c7cbcc8f9d291e1a801bbb56ac3a83eaa107e67d034498e8804b659",
@@ -84,11 +84,12 @@
     "dcc/modulo-532/semana-05.md": "5e99db82d91c9dfc8a55c8cdc47ca12e522e808528037c312f532b14e0519c44",
     "dcc/modulo-532/semana-06.md": "eb2eb7ef47e98081a95d2dd625f654784910a8599d356c11028af38c800fee80",
     "dcc/modulo-532/semana-07.md": "a4e4424ae4e19ac9e47fa6d3ba5a0d312c87163b19083e2f4b59ebc007bbd66c",
-    "dcc/modulo-566/index.md": "ff4beed1be9f7e973e07f3bc4f73fd23cfe6e0081f74075e5f47a3dae9dd54c8",
+    "dcc/modulo-566/index.md": "9d9da878c00a2cbb20d707083ce96566d53f8aba0178ad59a014de3528e1d6bd",
     "dcc/modulo-566/semana-01.md": "f539c4c35ffaa6fadb5af30cbd89edbf69229530d85833803d6544f101bd2409",
     "dcc/modulo-566/semana-02.md": "e0592e3d366be20ba08c9f3fe1a87ab51c10c317d93d99dbedd258c2aa8d6728",
     "dcc/modulo-566/semana-03.md": "b700e30bdabf24fe69e6d0e9ac3f837a1252ceedb26ff702dfcbca8230de254f",
-    "dcc/modulo-566/semana-04.md": "5aa00456e5acfeef124d958c0d7d238765ad2df125889f16a9ba6cb28b536be5",
+    "dcc/modulo-566/semana-04.md": "44769847c672ceaa1b805261c9bbb87363dc646833d9068b1ab92c9c5916a920",
+    "dcc/modulo-566/semana-05.md": "538fef532e0bcb494dc2664f886d294370da002b9dc966b5bf16095602caf634",
     "public/notes/dcc/modulo-195/semana-01.md": "1c5118c2c76b7398ea50e20f7f2da88d598ecf3e0f807e529fd74bfca9769c55",
     "public/notes/dcc/modulo-195/semana-02.md": "c8c02676666d7060b738fa6d0a72b7eeab24d431ee09b0731961850b1475229b",
     "public/notes/dcc/modulo-195/semana-03.md": "1be0d7314e47852207b22aa7bbd342a1a15852e37f88a0752ad91eb2e49d43bf",
@@ -160,6 +161,7 @@
     "public/notes/dcc/modulo-566/semana-01.md": "8a3b3ef2d0c8d159ed7659b38a394feb1b8407ad2e27dddb4eec9456ffe32805",
     "public/notes/dcc/modulo-566/semana-02.md": "edc6e0994a119d12b180570cb9d36949eb96aee203ed7b44a3ca05b99e4cff3d",
     "public/notes/dcc/modulo-566/semana-03.md": "9bedbceb5bffa3ec7bec027eab5ec461a66d91053cda51adce5904464d316b75",
-    "public/notes/dcc/modulo-566/semana-04.md": "d75ff79ba59d71c9fda34baba3b257140683a1eff77215b20fff4beb48a80b82"
+    "public/notes/dcc/modulo-566/semana-04.md": "d75ff79ba59d71c9fda34baba3b257140683a1eff77215b20fff4beb48a80b82",
+    "public/notes/dcc/modulo-566/semana-05.md": "e3fc3331a8635b970899d946c891945f3309c01dd68d30682add844a2d03915b"
   }
 }

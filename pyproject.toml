@@ -8,6 +8,7 @@ dependencies = [
   "sqlalchemy>=2.0,<3", "alembic>=1.14,<2", "pydantic-settings>=2.7,<3",
   "httpx>=0.28,<1", "playwright>=1.50,<2", "markdown-it-py>=3,<5",
   "jsonschema>=4.23,<5", "regex>=2024.11", "filelock>=3.17,<4",
+  "yt-dlp[default]>=2026.11.23",
 ]
 
 [dependency-groups]

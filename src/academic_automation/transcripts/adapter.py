@@ -1,5 +1,6 @@
 import asyncio
 import os
+import sys
 from pathlib import Path
 
 from academic_automation.core.errors import StageError
@@ -27,7 +28,11 @@ def classify_error(message: str) -> StageError:
     # failures. Preserve the more specific diagnostic so retries get the right cause.
     if any(s in text for s in ("429", "timed out", "network", "connection", "503", "502", "temporary")):
         return StageError("YOUTUBE_TRANSIENT_ERROR", retryable=True)
-    if any(s in text for s in ("no subtitles", "no automatic captions", "no se pudo obtener subtitulo", "requested subtitles", "processing", "premiere", "live event will begin")):
+    if any(s in text for s in ("n challenge solving failed", "error solving n challenge",
+                              "the page needs to be reloaded")):
+        return StageError("YOUTUBE_EXTRACTOR_ERROR", retryable=True)
+    if any(s in text for s in ("no subtitles", "no automatic captions", "requested subtitles",
+                              "still processing", "premiere", "live event will begin")):
         return StageError("SUBTITLES_NOT_AVAILABLE_YET", retryable=True)
     return StageError("TRANSCRIPT_DOWNLOAD_FAILED")
 
@@ -60,6 +65,7 @@ class TranscriptAdapter:
                     "HTTPS_PROXY", "HTTP_PROXY", "ALL_PROXY", "NO_PROXY"}}
                 diagnostic = work / "yt-dlp.log"
                 env["ACADEMIC_YTDLP_LOG"] = str(diagnostic)
+                env["ACADEMIC_YTDLP_PYTHON"] = sys.executable
                 try:
                     result = await self.runner(["/bin/bash", str(script), "--keep-vtt", "--workers", "1",
                                                 "--from", "1", "--output-dir", str(work), url],

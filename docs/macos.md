@@ -3,14 +3,14 @@
 Ejecute desde la raíz del repositorio. Mantenga el equipo despierto durante los trabajos y evite cerrar la sesión de Chrome utilizada por el script.
 
 ```bash
-brew install python@3.12 uv node yt-dlp
+brew install python@3.12 uv node
 # Codex CLI: utilice su instalación autenticada existente.
 codex --version
 codex exec --help
-yt-dlp --version
 node --version
 python3 scripts/configure_local.py
 uv sync --python 3.12
+uv run python -m yt_dlp --version
 uv run playwright install chromium
 uv run alembic upgrade head
 uv run academic doctor
@@ -19,7 +19,7 @@ uv run pytest -q
 
 No se necesita clave de la API OpenAI: Codex usa su autenticación del host. Si falta la skill, instálela antes del procesamiento; este proyecto no instala una copia alternativa. Por defecto se busca `~/.agents/skills/academic-transcription-to-notion`. Configure `ACADEMIC_SKILL_PATH` cuando su instalación use otra ruta.
 
-El script original está en `scripts/yt_transcripts.sh`, con permiso de ejecución; lo necesita porque sus workers se invocan mediante `xargs`. Si lo reemplaza, conserve ese permiso con `chmod +x scripts/yt_transcripts.sh`. La única modificación de integración es una salida de diagnóstico optativa mediante `ACADEMIC_YTDLP_LOG`; su comportamiento manual predeterminado no cambia.
+El script `scripts/yt_transcripts.sh` requiere permiso de ejecución porque invoca sus workers mediante `xargs`. El worker usa el yt-dlp instalado en su entorno de Python. Para una ejecución manual con la misma versión, use `uv run bash scripts/yt_transcripts.sh`.
 
 En sistemas con Conda, `uv sync --python /opt/homebrew/bin/python3.12` evita seleccionar un intérprete de Conda por el PATH. Un entorno virtual debe usar la misma arquitectura que las dependencias compiladas.
 
